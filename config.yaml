@@ -15,19 +15,19 @@ languages:
     params:
       heroText:
         title: The Falco Project
-        detail1: Trace system calls in the Linux kernel.
-        detail2: Enrich the kernel events with container meta information.
-        detail3: Assert the events against security rules.
-        detail4: Alert during security incidents.
+        detail1: Trace System Calls In The Linux kernel.
+        detail2: Enrich The kernel Events With Container Meta Information.
+        detail3: Assert The Events Against Security Rules.
+        detail4: Alert During Security Incidents.
       runtime:
         title: Why Runtime Security?
         intro: >-
                Securing Kubernetes requires putting controls in place to detect unexpected behavior that could be malicious. Examples include:
         items:
-          - example: Exploits of unpatched and new vulnerabilities
-          - example: Insecure configurations
-          - example: Leaked or weak credentials
-          - example: Insider threats
+          - example: Exploits Of Unpatched And New Vulnerabilities
+          - example: Insecure Configurations
+          - example: Leaked Or Weak Credentials
+          - example: Insider Threats
         closing: Even when processes are in place for vulnerability scanning and implementing pod security and network policies, not every risk will be addressed. You still need mechanisms to confirm these security barriers are effective, help configure them, and provide with a last line of defense when they fail.
       whyfalco:
         title: The Falco Project
